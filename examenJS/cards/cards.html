@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Cards</title>
+      <link rel="stylesheet" href="../node_modules/jquery-ui-dist/jquery-ui.css">
+      <link rel="stylesheet" href="../style/reset.css">
+      <link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+      <div class="container">
+            <div class="head">
+                  <p>LIBRARY</p>
+            </div>
+
+            <nav>
+                  <div><a href="../index.html">Books</a></div>
+                  <div><a href="../visitors/visitors.html">Visitors</a></div>
+                  <div><a href="#" id="main">Cards</a></div>
+                  <div><a href="../statistics/statistics.html">Statistics</a></div>
+                  
+                  <form action="">
+                      <label for="search">Search</label>
+                      <input id="search" type="text">
+                  </form>   
+            </nav>
+
+            <div class="header">
+                  <div>Cards:</div>
+                  <button id="add">New cards</button>
+            </div>
+            <div class="content">              
+            </div>
+            <div id="table"></div>
+            
+            <form id="addCards" action="">
+                <fieldset>
+                    <label for="id">ID</label><br>
+                    <input class="card" id="id" type="text"><br><br>
+                    
+                    <div id="selectUsers">Visitors<br>
+                        <select name="selectUsers" id="allUsers"><br><br>
+                        </select>
+                    </div>
+
+                    <br><div id="selectBooks">Books<br>
+                        <select name="selectBooks" id="allBooks"><br>
+                        </select>
+                    </div>
+                </fieldset>
+            </form>
+            
+            <form id="editCards" action="">
+                <fieldset>
+                    <label for="cardId">id</label><br>
+                    <input class="edCard" id="cardId" type="text"><br>
+
+                    <label for="visitorsName">Fullname</label><br>
+                    <input class="edCard" id="visitorsName" type="text"><br>
+
+                    <label for="books">Phone</label><br>
+                    <input class="edCard" id="books" type="text"><br>
+                </fieldset>
+            </form>
+      </div>
+      <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+      <script src="../node_modules/jquery-ui-dist/jquery-ui.min.js"></script>
+      <script src="cards.js"></script>   
+</body>
+</html>

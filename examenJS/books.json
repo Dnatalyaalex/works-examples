@@ -1,0 +1,100 @@
+[
+    {
+        "id": "1",
+        "name": "Цветы для Элджернона",
+        "auth": "Дэниел Киз",
+        "publishYear": "1988",
+        "publishName": "Ablex Publishing",
+        "pageAmount": "234",
+        "copyAmount": "0"
+    },
+
+    {
+        "id": "2",
+        "name": "Нейромант",
+        "auth": "Уильям Гибсон",
+        "publishYear": "2008",
+        "publishName": "Academic Press",
+        "pageAmount": "532",
+        "copyAmount": "63"
+    },
+
+    {
+        "id": "3",
+        "name": "Марсианские хроники",
+        "auth": "Рэй Брэдбери",
+        "publishYear": "2019",
+        "publishName": "Ablex Publishing",
+        "pageAmount": "432",
+        "copyAmount": "56"
+    },
+
+    {
+        "id": "4",
+        "name": "1984",
+        "auth": "Джордж Оруэл",
+        "publishYear": "2006",
+        "publishName": "ARDI",
+        "pageAmount": "342",
+        "copyAmount": "76"
+    },
+    {
+        "id": "5",
+        "name": "451 градус по Фаренгейту",
+        "auth": "Рэй Брэдбери",
+        "publishYear": "1999",
+        "publishName": "Elsevier",
+        "pageAmount": "176",
+        "copyAmount": "32"
+    },
+
+    {
+        "id": "6",
+        "name": "Плененная Вселенная",
+        "auth": "Гарри Гарисон",
+        "publishYear": "1987",
+        "publishName": "Higher Education Press",
+        "pageAmount": "532",
+        "copyAmount": "37"
+    },
+
+    {
+        "id": "7",
+        "name": "Самый далекий берег",
+        "auth": "Александр Бушков",
+        "publishYear": "2003",
+        "publishName": "John Wiley & Sons",
+        "pageAmount": "256",
+        "copyAmount": "21"
+    },
+
+    {
+        "id": "8",
+        "name": "Основание",
+        "auth": "Айзек Айзимов",
+        "publishYear": "2000",
+        "publishName": "Mathematical Sciences Publishers",
+        "pageAmount": "321",
+        "copyAmount": "21"
+    },
+
+    {
+        "id": "9",
+        "name": "Игра Эндера",
+        "auth": "Орсон Скотт Кард",
+        "publishYear": "1998",
+        "publishName": "Public Library of Science",
+        "pageAmount": "238",
+        "copyAmount": "12"
+    },
+
+    {
+        "id": "10",
+        "name": "День Триффидов",
+        "auth": "Джон Уиндэм",
+        "publishYear": "2015",
+        "publishName": "Ablex Publishing",
+        "pageAmount": "300",
+        "copyAmount": "88"
+    }
+]

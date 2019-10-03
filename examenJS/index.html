@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Books</title>
+      <link rel="stylesheet" href="style/reset.css">
+      <link rel="stylesheet" href="node_modules/jquery-ui-dist/jquery-ui.css">
+      <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="head">
+        <p>LIBRARY</p>
+        </div>
+
+        <nav>
+            <div><a href="#" id="main">Books</a></div>
+            <div><a href="visitors/visitors.html">Visitors</a></div>
+            <div><a href="cards/cards.html">Cards</a></div>
+            <div><a href="statistics/statistics.html">Statistics</a></div> 
+            <form action="">
+                <label for="search">Search</label>
+                <input id="search" type="text">
+            </form>
+        </nav>
+        <button id="add">Add book</button>
+        <div id="table"></div>
+
+        <form action="" id="books">
+            <fieldset>
+                <label for="id">id</label><br>
+                <input class="form" id="id" type="text"><br>
+
+                <label for="name">Name</label><br>
+                <input class="form" id="name" type="text"><br>
+
+                <label for="auth">Author</label><br>
+                <input class="form" id="auth" type="text"><br>
+
+                <label for="year">Year</label><br>
+                <input class="form" id="year" type="text"><br>
+
+                <label for="publish">Publish</label><br>
+                <input class="form" id="publish" type="text"><br>
+
+                <label for="pages">Pages amount</label><br>
+                <input class="form" id="pages" type="text"><br>
+
+                <label for="exempls">Copies amount</label><br>
+                <input class="form" id="exempls" type="text"><br>
+            </fieldset>
+        </form>
+        
+        <form action="" id="editbooks">
+            <fieldset>
+                <label for="bookId">id</label><br>
+                <input class="formEdit" id="bookId" type="text"><br>
+
+                <label for="bookName">Name</label><br>
+                <input class="formEdit" id="bookName" type="text"><br>
+
+                <label for="bookAuth">Author</label><br>
+                <input class="formEdit" id="bookAuth" type="text"><br>
+
+                <label for="bookYear">Year</label><br>
+                <input class="formEdit" id="bookYear" type="text"><br>
+
+                <label for="bookPublish">Publish</label><br>
+                <input class="formEdit" id="bookPublish" type="text"><br>
+
+                <label for="bookPages">Pages amount</label><br>
+                <input class="formEdit" id="bookPages" type="text"><br>
+
+                <label for="bookCopies">Copies amount</label><br>
+                <input class="formEdit" id="bookCopies" type="text"><br>
+            </fieldset>
+        </form>
+    </div>
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/jquery-ui-dist/jquery-ui.min.js"></script>
+    <script src="node_modules/jquery-ui-dist/jquery-ui.min.js"></script>
+    <script src="index.js"></script>   
+</body>
+</html>

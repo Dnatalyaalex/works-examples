@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Visitors</title>
+      <link rel="stylesheet" href="../node_modules/jquery-ui-dist/jquery-ui.css">
+      <link rel="stylesheet" href="../style/reset.css">
+      <link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+      <div class="container">
+            <div class="head">
+                  <p>LIBRARY</p>
+            </div>
+
+            <nav>
+                  <div><a href="../index.html">Books</a></div>
+                  <div><a href="#" id="main">Visitors</a></div>
+                  <div><a href="../cards/cards.html">Cards</a></div>
+                  <div><a href="../statistics/statistics.html">Statistics</a></div>
+                  <form action="">
+                      <label for="search">Search</label>
+                      <input id="search" type="text">
+                  </form>   
+            </nav>
+
+            <div class="header">
+                  <div>All visitors:</div>
+                  <button id="newVisitor">New visitor</button>
+            </div>
+            <div class="content">
+                <div id="sort">Sort by: 
+                    <select name="sort" id="sortUsers">
+                        <option value="id">ID</option>
+                        <option value="name">Name</option>
+                    </select>
+                </div>
+                  
+            </div>
+            <div id="table"></div>
+            <form id="visitor" action="">
+                <fieldset>
+                    <label for="id">id</label><br>
+                    <input class="visitor" id="id" type="text"><br>
+
+                    <label for="name">Full Name</label><br>
+                    <input class="visitor" id="name" type="text"><br>
+
+                    <label for="auth">Phone</label><br>
+                    <input class="visitor" id="auth" type="text"><br>
+                </fieldset>
+            </form>
+            
+            <form id="editVisitors" action="">
+                <fieldset>
+                    <label for="id">id</label><br>
+                    <input class="edVsitor" id="visitorsId" type="text"><br>
+
+                    <label for="name">Full Name</label><br>
+                    <input class="edVsitor" id="visitorsName" type="text"><br>
+
+                    <label for="auth">Phone</label><br>
+                    <input class="edVsitor" id="visitorsAuth" type="text"><br>
+                </fieldset>
+            </form>
+      </div>
+      <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+      <script src="../node_modules/jquery-ui-dist/jquery-ui.min.js"></script>
+      <script src="visitors.js"></script>   
+</body>
+</html>

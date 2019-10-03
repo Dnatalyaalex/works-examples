@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container-fluid {
+  padding: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #eee;
+}
+
+#nav {
+  text-align: right;
+  height: 12vh;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 900;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  margin: 0 0;
+  border: 0;
+  border-radius: 0;
+  padding: 0;
+}
+
+#nav .navbar-brand {
+  text-shadow: 5px 5px 1px #a7a2a2;
+  font-size: 35px;
+  color: #1cd9cc;
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 255, 255, 0);
+}
+
+#nav a:after {
+  background-color: #1cd9cc;
+  display: block;
+  content: "";
+  height: 2px;
+  width: 0%;
+  -webkit-transition: width .3s ease-in-out;
+  -moz--transition: width .3s ease-in-out;
+  transition: width .3s ease-in-out;
+}
+
+#nav a:hover:after,
+#nav a:focus:after {
+  width: 100%;
+}
+
+#nav .nav-link .active {
+  color: aqua !important;
+}
+
+.mainContent {
+    margin: 0 auto;
+    background-color: #eee;
+    text-align: center;
+    padding: 50px;
+    min-height: 44vh;
+}
+
+footer {
+  background-color: #457673;
+  color: #fff;
+  border-top: 1px solid #fff;
+    height: 44vh;
+}
+
+footer a {
+  color: #fff;
+}
+
+/*+++++++++admin+++++++*/
+.admin {
+    background-image: url(img/background.jfif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-weight: 600;
+}
+
+.myForm {
+    background-color: rgba(28, 70, 74, 0.7);
+    width: auto;
+    display: block;
+    margin: 17vh auto;
+    padding: 30px;
+    border-radius: 5px;
+}
+legend {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    border: 0!important;
+}
+label {
+    margin: 0;
+    padding: 0;
+}
+.myForm button {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+table {
+    margin: 50px auto;
+    background-color: rgba(191, 224, 229, 0.79);
+    width: auto;
+}
+td, th {
+    text-align: justify;
+    padding: 10px;
+    font-size: 15px;
+}
+
+th {
+    background-color: rgba(49, 189, 208, 0.84);
+    color: #fff;
+    text-align: center;
+}
+
+td a {
+    padding: 5px;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 12px;
+    background-color: rgba(49, 189, 208, 0.84);   
+}
+
+.editForm {
+    margin: 0 auto;
+    padding: 40px;
+    width: 50%;
+    border-radius: 7px;
+    font-size: 14px;
+    padding: 15px;
+    text-indent: 0!important;
+    background-color: rgba(191, 224, 229, 0.79);
+}
+.editForm p {
+    text-align: center;
+}
+.editForm input {
+    padding: 3px;
+}
+.editForm input {
+    text-align: center;
+}
+.editForm .submit {
+    padding: 5px;
+    background-color: #5a5c5c;
+    border-radius: 3px;
+    border: 0;
+    width: 70px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.editForm textarea {
+    font-weight: normal;
+    padding: 15px;
+}
+
+#cart:hover:after,
+#cart:focus:after {
+  width: 0!important;
+}
+
+.cart {
+    margin-right: 100px!important;
+}
+
+#addNew {
+    padding: 10px;
+    background-color: rgba(49, 189, 208, 0.84);
+    color: #fff;
+    font-weight: 600;
+    border-radius: 3px;
+}
+
+#tourTarget {
+    background-color: rgba(49, 189, 208, 0);
+    color: #333;
+}
+
+fieldset {
+    margin: 30px auto;
+}
